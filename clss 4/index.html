@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Linear gradient</title>
+        <style>
+        </style>
+
+        <link href="./style.css">
+        <script>
+            let x = 5;
+            let y = 6;
+            let z = x + y;
+            console.log(z);
+            console.log("aaryan")
+
+            function update(val){
+                let initial=document.getElementById("in1").value;
+                initial=initial+val;
+                document.getElementById("in1").value=initial;
+            }
+
+            function fun(){
+                let ans=document.getElementById("in1").value;
+                console.log(eval(ans));
+                document.getElementById("ans").innerHTML=eval(ans);
+            }
+        </script>
+    </head>
+    <body id="body">
+        
+        <input id="in1" type="text">
+        <br>
+        <button onclick="update(1)">1</button>
+        <button onclick="update(2)">2</button>
+        <button onclick="update(3)">3</button><br>
+        <button onclick="update(4)">4</button>
+        <button onclick="update(5)">5</button>
+        <button onclick="update(6)">6</button><br>
+        <button onclick="update(7)">7</button>
+        <button onclick="update(8)">8</button>
+        <button onclick="update(9)">9</button><br>
+        <button onclick="update(0)">0</button>
+        <button onclick="update('.')">.</button>
+        <button onclick="update('-')">-</button><br>
+        <button onclick="update('+')">+</button>
+        <button onclick="update('*')">*</button>
+        <button onclick="update('/')">/</button>
+        <p id="ans"></p>
+        <button onclick="fun()">Solve</button>
+        <br>
+
+        <p id="p">
+
+        </p>
+        Gradient:
+        <br>1. Linear gradient
+        <br>2. Radial Gradient;
+
+        <br>
+        <ol>
+            <li>one</li>
+            <li>Two<ol>
+                <li>two.one</li>
+                <li>two.two</li>
+            </ol></li>
+            <li>three</li>
+        </ol>
+        <br>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+    </body>
+</html>

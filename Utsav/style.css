@@ -1,0 +1,55 @@
+div{
+    border:1px solid black;
+}
+#para{
+    width:100%;
+}
+#s1{
+    font-size: 5vmin;
+}
+#s2{
+    float: right;
+}
+#para2{
+    width:100%;
+    height: 50vh;
+    line-height: 40vh;
+}
+#s3{
+    width:50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 7vmin;
+    vertical-align: top;
+}
+#s4{
+    display: inline-block;
+    background-image: url("./pic.jpg");
+    background-size: cover;
+    height:50vh;
+    width:40vmin;
+}
+
+
+#p1{
+    animation: animate 3s ease-in-out 0s infinite alternate ;
+}
+#p2{
+    border: 2px solid black;
+    animation: animate2 3s ease-in-out 0s infinite alternate ;
+}
+#p2:hover{
+
+}
+
+@keyframes animate {
+    from{background-color: blueviolet;}
+    to{background-color: brown;}
+}
+
+@keyframes animate2 {
+    0%{width:100%;}
+    25%{background-color: grey;}
+    75%{background-color: red;}
+    100%{width:50%;}
+}
