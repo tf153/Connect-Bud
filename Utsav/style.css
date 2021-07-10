@@ -1,4 +1,4 @@
-div{
+/* div{
     border:1px solid black;
 }
 #para{
@@ -40,6 +40,14 @@ div{
 }
 #p2:hover{
 
+} */
+body{
+    background-color: red;
+}
+#para{
+    background-color: grey;
+    opacity: 0;
+    height: 50%;
 }
 
 @keyframes animate {
